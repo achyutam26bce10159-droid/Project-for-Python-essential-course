@@ -33,3 +33,11 @@ while(X<8):
     print()
     X = int(input("enter your choice:"))
     print()
+  if(X==2):
+    print("Viewing all products")
+    print()
+    for j in range(0, len(E)):
+      print(E[j])
+      print()
+    X = int(input("enter your choice:"))
+    print()
