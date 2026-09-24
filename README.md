@@ -41,3 +41,14 @@ while(X<8):
       print()
     X = int(input("enter your choice:"))
     print()
+  if(X==3):
+    print("searching a product")
+    print()
+    N = int(input("enter index:"))
+    if N<len(E):
+      print(E[N])
+    else:
+      print("No product on this index")
+    print()
+    X = int(input("enter your choice:"))
+    print()
