@@ -94,3 +94,11 @@ while(X<8):
     print()
     X = int(input("enter your choice:"))
     print()
+  if(X==7):
+    print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+    print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+    print()
+    print("Thankyou for visiting us")
+    print()
+    print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
+    print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
