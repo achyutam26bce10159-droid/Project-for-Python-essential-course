@@ -84,3 +84,13 @@ while(X<8):
     print()
     X = int(input("enter your choice:"))
     print()
+  if(X==6):
+    print("deleting a product")
+    print()
+    print("which product do you want to delete?")
+    a = int(input("enter index of product:"))
+    E.pop(a)
+    print("product is deleted")
+    print()
+    X = int(input("enter your choice:"))
+    print()
