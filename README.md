@@ -73,3 +73,14 @@ while(X<8):
     print()
     X = int(input("enter your choice:"))
     print()
+  if(X==5):
+    print("selling the product")
+    print()
+    print("which product do you want to sell?")
+    a = int(input("enter index of product:"))
+    t = E[a]
+    t["quantity"] = t["quantity"] - 1
+    print("product is sold")
+    print()
+    X = int(input("enter your choice:"))
+    print()
