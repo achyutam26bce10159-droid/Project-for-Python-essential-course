@@ -48,6 +48,19 @@ def update():
       t["price"] = x
   print("change is updated!")
   print()
+def selling():
+  print("which product do you want to sell?")
+  a = int(input("enter index of product:"))
+  t = E[a]
+  t["quantity"] = t["quantity"] - 1
+  print("product is sold")
+  print()
+def delete():
+  print("which product do you want to delete?")
+  a = int(input("enter index of product:"))
+  E.pop(a)
+  print("product is deleted")
+  print()
 while(X<8):
   if(X==1):
     print("Adding new product")
@@ -82,22 +95,13 @@ while(X<8):
   if(X==5):
     print("selling the product")
     print()
-    print("which product do you want to sell?")
-    a = int(input("enter index of product:"))
-    t = E[a]
-    t["quantity"] = t["quantity"] - 1
-    print("product is sold")
-    print()
+    selling()
     X = int(input("enter your choice:"))
     print()
   if(X==6):
     print("deleting a product")
     print()
-    print("which product do you want to delete?")
-    a = int(input("enter index of product:"))
-    E.pop(a)
-    print("product is deleted")
-    print()
+    delete()
     X = int(input("enter your choice:"))
     print()
   if(X==7):
