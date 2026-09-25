@@ -90,7 +90,7 @@ Project Structure
 
 Project-for-Python-essential-course/
 
-project.py
-README.md
-statement.md
+1.project.py
+2.README.md
+3.statement.md
 
