@@ -1,4 +1,4 @@
- #Project-for-Python-essential-course #Inventory management system by achyutam sharma 26bce10159
+#Project-for-Python-essential-course #Inventory management system by achyutam sharma 26bce10159
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 print()
@@ -71,4 +71,10 @@ while(X<8):
     i=i+1
     print()
     X = int(input("enter your choice:"))
+    print()
+  if(X==2):
+    print("Viewing all products")
+    print()
+    viewing()
+    X = int(input("enter your choice:")) 
     print() 
