@@ -18,11 +18,10 @@ print("6. Delete a product")
 print("7. Exit")
 print()
 X = int(input("enter your choice:"))
-pprojec
 def viewing():
-for j in range(0, len(E)):
-  print(E[j])
-  print()
+  for j in range(0, len(E)):
+    print(E[j])
+    print()
 def searching():
   N = int(input("enter index:"))
   if N<len(E):
