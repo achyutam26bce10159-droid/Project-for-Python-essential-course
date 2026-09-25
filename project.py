@@ -77,4 +77,10 @@ while(X<8):
     print()
     viewing()
     X = int(input("enter your choice:")) 
-    print() 
+   print()
+  if(X==3):
+    print("searching a product")
+    print()
+    searching()
+    X = int(input("enter your choice:"))
+    print()
