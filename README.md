@@ -1,4 +1,4 @@
-# Project-for-Python-essential-course
+#Project-for-Python-essential-course
 #Inventory management system by achyutam sharma 26bce10159
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
