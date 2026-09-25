@@ -84,3 +84,9 @@ while(X<8):
     searching()
     X = int(input("enter your choice:"))
     print()
+  if(X==4):
+    print("updating the product")
+    print()
+    update()
+    X = int(input("enter your choice:"))
+    print()
