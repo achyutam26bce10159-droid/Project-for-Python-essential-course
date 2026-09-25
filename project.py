@@ -110,6 +110,7 @@ while(X<8):
   if(X==7):
     print()
     print("Thankyou for visiting us")
+    break
 #end of project
 
 
