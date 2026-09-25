@@ -93,7 +93,10 @@ Project-for-Python-essential-course/
 1.project.py
 2.README.md
 3.statement.md
-
+4.viewsearch.py
+5.update.py
+6.sell.py
+7.delete.py
 ________________
 
 Installation
