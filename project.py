@@ -103,6 +103,7 @@ while(X<8):
     X = int(input("enter your choice:")) 
     print()
   if(X==7):
+    print()
     print("Thankyou for visiting us")
 #end of project
 
