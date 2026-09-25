@@ -96,3 +96,9 @@ while(X<8):
     selling() 
     X = int(input("enter your choice:"))
     print()
+  if(X==6):
+    print("deleting a product")
+    print()
+    delete() 
+    X = int(input("enter your choice:")) 
+    print()
