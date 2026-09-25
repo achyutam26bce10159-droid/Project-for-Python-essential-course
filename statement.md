@@ -50,12 +50,56 @@ The project can serve as an example for learners who are studying:
 - Loops
 - Conditional statements
 - User input
-- Basic data management
-- CRUD operations
 
 Academic Use
 
 The project is suitable for educational demonstrations, Python programming assignments, and introductory programming coursework.
 
 ____________________
+
+4. High-Level Features
+
+The system provides the following major features:
+
+1 Add New Product
+
+Users can add a new product by entering:
+
+- Product name
+- Product quantity
+- Product price
+
+The product is then added to the inventory.
+
+2 View All Products
+
+Users can view all products currently stored in the inventory along with their information.
+
+3 Search Product
+
+Users can search for a product by entering its inventory index.
+
+4 Update Product
+
+Users can modify existing product information, including:
+
+- Product name
+- Product quantity
+- Product price
+
+5 Sell Product
+
+Users can record the sale of a product. The quantity of the selected product is decreased by one.
+
+6 Delete Product
+
+Users can remove a product from the inventory by specifying its index.
+
+7 Menu-Driven Interface
+
+The application provides a simple numbered menu that allows users to select the required operation.
+
+8 In-Memory Data Management
+
+Product information is managed using Python dictionaries while the program is running.
 
