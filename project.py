@@ -90,3 +90,9 @@ while(X<8):
     update()
     X = int(input("enter your choice:"))
     print()
+  if(X==5):
+    print("selling the product")
+    print()
+    selling() 
+    X = int(input("enter your choice:"))
+    print()
