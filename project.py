@@ -59,3 +59,16 @@ def delete():
   E.pop(a)
   print("product is deleted")
   print()
+while(X<8):
+  if(X==1):
+    print("Adding new product")
+    print()
+    A = input("enter product's name:")
+    B = int(input("enter product's quantity:"))
+    C = int(input("enter product's price:"))
+    D = {"name":A, "quantity":B, "price":C}
+    E[i]=D
+    i=i+1
+    print()
+    X = int(input("enter your choice:"))
+    print() 
