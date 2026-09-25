@@ -1,8 +1,8 @@
 #Project-for-Python-essential-course #Inventory management system by achyutam sharma 26bce10159
-import from viewsearch 
-import from update
-import from sell
-import from delete
+import viewsearch 
+import update
+import sell
+import delete
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 print("OOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 print()
