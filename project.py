@@ -46,3 +46,16 @@ def update():
     t["price"] = x
   print("change is updated!")
   print()
+def selling():
+  print("which product do you want to sell?")
+  a = int(input("enter index of product:"))
+  t = E[a]
+  t["quantity"] = t["quantity"] - 1
+  print("product is sold")
+  print()
+def delete():
+  print("which product do you want to delete?")
+  a = int(input("enter index of product:"))
+  E.pop(a)
+  print("product is deleted")
+  print()
